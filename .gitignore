@@ -1,0 +1,15 @@
+# .gitignore — one-line meeting killer (boothlord)
+# Python bytecode and caches from local runs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Local test outputs: the grader writes to /output, never here
+entry.txt
+local-entry-*.txt
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Personal scratch notes for this entry only
+scratch-meeting-notes.md
